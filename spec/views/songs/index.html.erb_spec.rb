@@ -3,7 +3,7 @@ RSpec.describe 'songs/index', type: :feature do
     {
       title: 'Rhythms Which I Played',
       release_year: 2000,
-      released: true,
+      released: true, 
       genre: 'Normcore',
       artist_name: 'Man With Instruments'
     }
