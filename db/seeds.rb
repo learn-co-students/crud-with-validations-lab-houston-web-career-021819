@@ -1,0 +1,1 @@
+Song.create(title: "my song", artist_name: "Mark", genre: "rock", released: true, release_year: 2009)
