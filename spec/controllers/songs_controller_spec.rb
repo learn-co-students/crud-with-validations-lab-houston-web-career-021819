@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'pry'
 
 RSpec.describe SongsController, type: :controller do
   let(:valid_attributes) do

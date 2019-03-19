@@ -1,0 +1,16 @@
+<body>
+<h1>Songs list:</h1>
+
+  <table>
+  <th>Title</th><th>Released?</th><th>Release Year</th><th>Artist Name</th><th>Genre</th>
+  <tbody>
+  <% @songs.each do |s| %>
+    <tr>
+    <td><%= link_to s.title, "/songs/#{s.id}" %></td><td><%= s.released%></td><td><%= s.release_year%></td><td><%= s.artist_name%></td><td> <%= s.genre%></td>
+    </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+</body>
+      
